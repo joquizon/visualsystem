@@ -1,0 +1,24 @@
+
+<svg viewBox="0 0 901.739 599.052" xml:space="preserve">
+
+<g id="interface">
+	<g>
+		<rect x="729.274" y="121.063" fill="none" stroke="#F17FFF" width="58.5" height="52.313"/>
+		<polyline fill="none" stroke="#F17FFF" points="729.274,121.063 787.774,173.375 729.274,173.375 787.774,121.063 		"/>
+	</g>
+	<g>
+		<rect x="757.962" y="121.063" fill="none" stroke="#F17FFF" width="58.5" height="52.313"/>
+		<polyline fill="none" stroke="#F17FFF" points="757.962,121.063 816.462,173.375 757.962,173.375 816.462,121.063 		"/>
+	</g>
+	<g>
+		<rect x="788.077" y="120.725" fill="none" stroke="#F17FFF" width="58.5" height="52.313"/>
+		<polyline fill="none" stroke="#F17FFF" points="788.077,120.725 846.577,173.037 788.077,173.037 846.577,120.725 		"/>
+	</g>
+	<rect x="729.556" y="197.58" fill="#F17FFF" stroke="#D3015E" width="57.938" height="9.563"/>
+	<rect x="758.524" y="197.58" fill="#F17FFF" stroke="#D3015E" width="57.938" height="9.563"/>
+	<rect x="787.493" y="197.58" fill="#F17FFF" stroke="#D3015E" width="57.938" height="9.563"/>
+	<line fill="none" stroke="#F17FFF" x1="729.49" y1="217.666" x2="901.739" y2="217.666"/>
+	<line fill="none" stroke="#F17FFF" x1="729.463" y1="187.266" x2="901.739" y2="187.266"/>
+
+</g>
+</svg>

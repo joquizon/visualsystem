@@ -1,0 +1,337 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+#skullcontainer {
+    width: 70%;
+    margin-left: 15%;}
+#skulloverlays {
+    width: 70%;
+}  
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+#skullcontainer {
+    width: 80%;
+    margin-left: 10%;}
+#skulloverlays {
+    width: 80%;
+}  
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+#skullcontainer {
+    width: 70%;
+    margin-left: 15%;}
+#skulloverlays {
+    width: 70%;
+}    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+
+
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#skullcontainer {
+    width: 60%;
+    margin-left: 20%;}
+#skulloverlays {
+    width: 60%;
+}    
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#trackingcontain {
+    width: 90%;
+    margin-left: 5%;
+}
+#lacooncontainer {
+    width: 90%;
+    margin-left: 5%;
+}
+.mark {font-size: 14vw;}
+.submark {font-size: 5.15vw;}
+.dater {font-size: 2.5vw;}
+.prog1,.prog2,.prog3{height: .5vw;}
+}

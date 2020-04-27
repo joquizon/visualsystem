@@ -1,0 +1,1372 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+
+    /* HTML5 display-role reset for older browsers */
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+
+@font-face {font-family:BB;
+            src: url(bebasK.otf);}
+
+@font-face {font-family:cdl;
+            src: url(codel.otf);}
+
+@font-face {font-family:blc;
+            src: url(block.ttf);}
+
+@font-face {font-family:nin;
+            src: url(nintendo.ttf);}
+@font-face {font-family:futuraex;
+            src: url(futuraextended.ttf);}
+
+body{overflow-x: hidden;}
+a{cursor:pointer;
+text-decoration: none;}
+.mwork{width: 76%;
+    margin-left: 12%;
+    margin-top: 5vh;
+    margin-bottom: 10vh;}
+/*laocoon*/
+    #lacooncontainer
+    {    float: left;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 8%;}
+    #lacoon{width:100%;}
+
+    #boxoverlay{position:absolute;}
+    .overlayrect{fill: rgba(68, 0, 123, 0.25);
+    stroke: none;}
+    .mark{
+    font-size: 5vw;
+    color: white;
+    font-family: BB;
+    position: absolute;
+    }
+
+    #marker1{margin-left: 46%;}
+    #marker2{    margin-left: 8%;
+    margin-top: 34%;}
+    #marker3{    margin-top: 36%;
+    margin-left: 87%;}
+    .submark{    position: absolute;
+    color: red;
+    font-family: cdl;
+    font-size: 2.15vw;
+    }
+    .blocks {
+    color: red;
+    font-family: blc;
+    font-size: 2vw;
+    position: fixed;
+    }
+
+
+    #blc1 {    width: 12%;
+    margin-left: 15%;
+    margin-top: 13.1%;
+    position: absolute;
+    }
+
+
+
+    #submarker1{    margin-left: 53%;
+    margin-top: 3%;}
+    #submarker2{margin-left: 15%;
+    margin-top: 35%;}
+    #submarker3{
+    margin-left: 92%;
+    margin-top: 35%;}
+
+
+    #trackingcontain{    
+        position: absolute;
+    width: 30%;
+    height: 22%;
+    opacity: 1;
+    margin-left: 35%;
+    margin-top: 8%;}
+
+    #trackingbase{width: 100%;
+        position: absolute;
+        opacity: 0;}
+
+    .tracking{/*border: solid .09vw white;*/
+    width: 2vw;
+     background-color:rgba(1, 253, 206, 0.14); 
+    position:fixed;
+    height: 1vw;}
+
+        #trk1{ margin-top: 35%;
+            margin-left: 22%;
+            width: 24%;
+            height: 24%;
+            position:absolute;
+            -webkit-animation-name: trk1movement; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+            animation-name: trk1movement;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;}
+
+
+            @-webkit-keyframes trk1movement {
+                0%   {    margin-top: 35%;
+                        margin-left: 22%;
+                        width: 24%;}
+                15% { margin-top: 26%;
+                   margin-left: 11%;
+                   width: 15%;}                        
+                25%  {        margin-top: 32%;
+                        margin-left: 42%;
+                        width: 8%;}
+                30%{margin-top: 53%;
+                    margin-left: 27%;
+                    width: 28%;}
+                45%{margin-top: 39%;
+                    margin-left: 49%;
+                    width: 15%;}
+
+                50%  {margin-top: 49%;
+                        margin-left: 55%;
+                        width: 7%;}
+                60%{ margin-top: 20%;
+                           margin-left: 6%;
+                           width: 11%;}                        
+                75% {            margin-top: 19%;
+                        margin-left: 32%;
+                        width: 15%;}
+                90%{margin-top: 44%;
+                    margin-left: 38%;
+                    width: 9%;}
+                100%   {    margin-top: 35%;
+                        margin-left: 22%;
+                        width: 24%;}
+            }
+
+
+            @keyframes trk1movement {
+                0%   {    margin-top: 35%;
+                        margin-left: 22%;
+                        width: 24%;}
+                15% { margin-top: 26%;
+                   margin-left: 11%;
+                   width: 15%;}
+                25%  {        margin-top: 32%;
+                        margin-left: 42%;
+                        width: 8%;}
+                30%{margin-top: 53%;
+                    margin-left: 27%;
+                    width: 28%;}   
+                45%{margin-top: 39%;
+                    margin-left: 49%;
+                    width: 15%;}                     
+                50%  {margin-top: 49%;
+                        margin-left: 55%;
+                        width: 7%;}
+                60%{ margin-top: 20%;
+                           margin-left: 6%;
+                           width: 11%;}
+                75% {            margin-top: 19%;
+                        margin-left: 32%;
+                        width: 15%;}
+                90%{margin-top: 44%;
+                    margin-left: 38%;
+                    width: 9%;}
+                100%   {    margin-top: 35%;
+                        margin-left: 22%;
+                        width: 24%;}
+            }
+
+
+        #trk2{     margin-top: 73%;
+                margin-left: 28%;
+                width: 6%;
+                height: 24%;
+                position:absolute;
+                -webkit-animation-name: trk1movement; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+                animation-name: trk2movement;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;}
+
+
+                @-webkit-keyframes trk2movement {
+                0%   {margin-top: 73%;
+                 margin-left: 28%;
+                 width: 6%;}
+               
+                10%   {margin-top: 87%;
+                margin-left: 34%;
+                width: 4%;
+                height: 29%;}
+
+                            15%{margin-top: 93%;
+                margin-left: 61%;
+                width: 21%;
+                height: 26%;}
+                            
+                            25%{margin-top: 67%;
+                margin-left: 46%;
+                width: 17%;
+                height: 40%;}
+
+                            30%{margin-top: 102%;
+                margin-left: 31%;
+                width: 15%;
+                height: 24%;}
+
+                            55%{    margin-top: 110%;
+                margin-left: 63%;
+                width: 22%;}
+
+                    75%{    margin-top: 51%;
+                margin-left: 30%;
+                width: 8%;}
+
+                        80%{margin-top: 60%;
+                margin-left: 54%;
+                width: 41%;}
+
+                        90%{margin-top: 80%;
+                margin-left: 57%;
+                width: 9%;}
+                100%   {margin-top: 73%;
+                 margin-left: 28%;
+                 width: 6%;}
+                }
+                
+                @keyframes trk2movement {
+                0%   {margin-top: 73%;
+                 margin-left: 28%;
+                 width: 6%;}
+               
+                10%   {margin-top: 87%;
+                margin-left: 34%;
+                width: 4%;
+                height: 29%;}
+
+                            15%{margin-top: 93%;
+                margin-left: 61%;
+                width: 21%;
+                height: 26%;}
+                            
+                            25%{margin-top: 67%;
+                margin-left: 46%;
+                width: 17%;
+                height: 40%;}
+
+                            30%{margin-top: 102%;
+                margin-left: 31%;
+                width: 15%;
+                height: 24%;}
+
+                            55%{    margin-top: 110%;
+                margin-left: 63%;
+                width: 22%;}
+
+                    75%{    margin-top: 51%;
+                margin-left: 30%;
+                width: 8%;}
+
+                        80%{margin-top: 60%;
+                margin-left: 54%;
+                width: 41%;}
+
+                        90%{margin-top: 80%;
+                margin-left: 57%;
+                width: 9%;}
+                100%   {margin-top: 73%;
+                 margin-left: 28%;
+                 width: 6%;}
+            }
+
+        #trk3{    margin-top: 48%;
+            margin-left: 26%;
+            width: 7%;
+            height: 24%;
+            position:absolute;
+            -webkit-animation-name: trk1movement; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+            animation-name: trk3movement;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;}
+
+            @-webkit-keyframes trk3movement {
+                0%   {    margin-top: 48%;
+                margin-left: 26%;
+                width: 7%;}
+                10%{    margin-top: 47%;
+                margin-left: 32%;
+                width: 9%;}
+
+                        15%{margin-top: 54%;
+                margin-left: 35%;
+                width: 6%;}
+
+                        25%{    margin-top: 55%;
+                margin-left: 31%;
+                width: 4%;}
+
+                        40%{    margin-top: 61%;
+                margin-left: 55%;
+                width: 2%;}
+
+                        45%{    margin-top: 59%;
+                margin-left: 57%;
+                width: 2%;}
+
+                        50%{    margin-top: 61%;
+                margin-left: 58%;
+                width: 2%;}
+
+                        55%{margin-top: 63%;
+                margin-left: 60%;
+                width: 2%;}
+
+                        60%{    margin-top: 60%;
+                margin-left: 53%;
+                width: 11%;}
+
+
+                        70%{margin-top: 60%;
+                margin-left: 53%;
+                width: 11%;}
+
+                        75%{    margin-top: 106%;
+                margin-left: 38%;
+                width: 3%;}
+
+                        80%{    margin-top: 103%;
+                margin-left: 36%;
+                width: 2%;}
+
+                        85%{    margin-top: 101%;
+                margin-left: 35%;
+                width: 2%;}
+
+                        90%{    margin-top: 105%;
+                margin-left: 33%;
+                width: 10%;}
+                100%   {    margin-top: 48%;
+            margin-left: 26%;
+            width: 7%;}
+            }
+
+            @keyframes trk3movement {
+                0%   {    margin-top: 48%;
+                margin-left: 26%;
+                width: 7%;}
+                10%{    margin-top: 47%;
+                margin-left: 32%;
+                width: 9%;}
+
+                        15%{margin-top: 54%;
+                margin-left: 35%;
+                width: 6%;}
+
+                        25%{    margin-top: 55%;
+                margin-left: 31%;
+                width: 4%;}
+
+                        40%{    margin-top: 61%;
+                margin-left: 55%;
+                width: 2%;}
+
+                        45%{    margin-top: 59%;
+                margin-left: 57%;
+                width: 2%;}
+
+                        50%{    margin-top: 61%;
+                margin-left: 58%;
+                width: 2%;}
+
+                        55%{margin-top: 63%;
+                margin-left: 60%;
+                width: 2%;}
+
+                        60%{    margin-top: 60%;
+                margin-left: 53%;
+                width: 11%;}
+
+
+                        70%{margin-top: 60%;
+                margin-left: 53%;
+                width: 11%;}
+
+                        75%{    margin-top: 106%;
+                margin-left: 38%;
+                width: 3%;}
+
+                        80%{    margin-top: 103%;
+                margin-left: 36%;
+                width: 2%;}
+
+                        85%{    margin-top: 101%;
+                margin-left: 35%;
+                width: 2%;}
+
+                        90%{    margin-top: 105%;
+                margin-left: 33%;
+                width: 10%;}
+                100%   {    margin-top: 48%;
+            margin-left: 26%;
+            width: 7%;}
+            }
+
+
+        
+        #trk4{margin-top: 32%;
+            margin-left: 41%;
+            width: 10%;
+            height: 24%;
+            position:absolute;
+            -webkit-animation-name: trk1movement; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+            animation-name: trk4movement;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;}
+
+            @-webkit-keyframes trk4movement {
+                0%   {margin-top: 32%;
+                margin-left: 41%;
+                width: 10%;}
+                
+                            20%{    margin-top: 36%;
+                margin-left: 51%;
+                width: 20%;}
+                            40%{    margin-top: 42%;
+                margin-left: 46%;
+                width: 13%;}
+                            60%{    margin-top: 43%;
+                margin-left: 56%;
+                width: 5%;}
+                            70%{    margin-top: 43%;
+                margin-left: 56%;
+                width: 5%;}
+                            80%{    margin-top: 42%;
+                margin-left: 46%;
+                width: 13%;}
+                            90%{    margin-top: 36%;
+                margin-left: 51%;
+                width: 20%;}
+
+                100%{margin-top: 32%;
+                margin-left: 41%;
+                width: 10%;}                
+            }
+            @keyframes trk4movement {
+                0%   {margin-top: 32%;
+                margin-left: 41%;
+                width: 10%;}
+                
+                            20%{    margin-top: 36%;
+                margin-left: 51%;
+                width: 20%;}
+                            40%{    margin-top: 42%;
+                margin-left: 46%;
+                width: 13%;}
+                            60%{    margin-top: 43%;
+                margin-left: 56%;
+                width: 5%;}
+                            70%{    margin-top: 43%;
+                margin-left: 56%;
+                width: 5%;}
+                            80%{    margin-top: 42%;
+                margin-left: 46%;
+                width: 13%;}
+                            90%{    margin-top: 36%;
+                margin-left: 51%;
+                width: 20%;}
+
+                100%{margin-top: 32%;
+                margin-left: 41%;
+                width: 10%;}
+            }
+
+        
+
+            .dater{font-size: .85vw;
+                font-family: nin;
+                color: white;
+                position: absolute;
+                width: 13vw;
+                margin-top: 28%;}
+
+        #tag1{margin-left: 40%;
+            margin-top: 23%;}
+        #tag2{margin-top: 21%;
+            margin-left: 35%;}   
+        #tag3{margin-top: 25%;
+            margin-left: 35%;}
+        #tag4{margin-top: 49%;
+            margin-left: 18%;}
+        #tag5{margin-top: 52%;
+            margin-left: 20%;}
+        #tag6{margin-top: 53%;
+            margin-left: 16%;}
+        #tag7{margin-top: 58%;
+            margin-left: 79%;}
+        #tag8{margin-top: 55%;
+            margin-left: 82%;}    
+            #bar1    {
+                margin-left: 42%;
+                margin-top: 24%;
+                }
+
+
+            #bar2    {
+            margin-left: 37%;
+            margin-top: 22%;
+                }
+
+            #bar3    {
+            margin-left: 37%;
+            margin-top: 27%;
+                }  
+
+            #bar4{margin-top: 51%;
+            margin-left: 20%}      
+            #bar5{    margin-top: 54%;
+            margin-left: 21%;} 
+            #bar6{margin-top: 55%;
+            margin-left: 18%;} 
+            #bar7{    margin-top: 57%;
+            margin-left: 83%;} 
+            #bar8{margin-top: 60%;
+            margin-left: 81%;} 
+
+
+        .tagclass{width: 8%;
+            position:absolute;}
+    
+
+
+        .prog1{width: 10%;
+            height: .2vw;
+            background-color: #80FEFF;
+            position: absolute;
+            z-index: 100;
+            -webkit-animation-name: tagCLSmovement; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+            animation-name: tagCLSmovement;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;}
+
+            @-webkit-keyframes tagCLSmovement {
+                0%{width:0%;}
+                10%{width:1%;}
+                20%{width:2%;}
+                30%{width:3%;}
+                40%{width:4%;}
+                50%{width:5%;}
+                60%{width:6%;}
+                70%{width:7%;}
+                80%{width:8%;}
+                90%{width:9%;}
+                100%{width:0%;}
+            }
+
+            @keyframes tagCLSmovement {
+                0%{width:0%;}
+                10%{width:1%;}
+                20%{width:2%;}
+                30%{width:3%;}
+                40%{width:4%;}
+                50%{width:5%;}
+                60%{width:6%;}
+                70%{width:7%;}
+                80%{width:8%;}
+                90%{width:9%;}
+                100%{width:0%;}
+            }
+
+
+            .prog2{width: 10%;
+            height: .2vw;
+            background-color: #80FEFF;
+            position: absolute;
+            z-index: 100;
+            -webkit-animation-name: tagCLSmovement; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+            animation-name: tagCLSmovement;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;}
+
+            @-webkit-keyframes tagCLSmovement {
+                0%{width:0%;}
+                10%{width:1%;}
+                20%{width:2%;}
+                30%{width:3%;}
+                40%{width:4%;}
+                50%{width:5%;}
+                60%{width:6%;}
+                70%{width:7%;}
+                80%{width:8%;}
+                90%{width:9%;}
+                100%{width:0%;}
+            }
+
+            @keyframes tagCLSmovement {
+                0%{width:0%;}
+                10%{width:1%;}
+                20%{width:2%;}
+                30%{width:3%;}
+                40%{width:4%;}
+                50%{width:5%;}
+                60%{width:6%;}
+                70%{width:7%;}
+                80%{width:8%;}
+                90%{width:9%;}
+                100%{width:0%;}
+            }
+
+        .prog3{width: 10%;
+            height: .2vw;
+            background-color: #80FEFF;
+            position: absolute;
+            z-index: 100;
+            -webkit-animation-name: tagCLSmovement; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 9s; /* Safari 4.0 - 8.0 */
+            animation-name: tagCLSmovement;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;}
+
+            @-webkit-keyframes tagCLSmovement {
+                0%{width:0%;}
+                10%{width:1%;}
+                20%{width:2%;}
+                30%{width:3%;}
+                40%{width:4%;}
+                50%{width:5%;}
+                60%{width:6%;}
+                70%{width:7%;}
+                80%{width:8%;}
+                90%{width:9%;}
+                100%{width:0%;}
+            }
+
+            @keyframes tagCLSmovement {
+                0%{width:0%;}
+                10%{width:1%;}
+                20%{width:2%;}
+                30%{width:3%;}
+                40%{width:4%;}
+                50%{width:5%;}
+                60%{width:6%;}
+                70%{width:7%;}
+                80%{width:8%;}
+                90%{width:9%;}
+                100%{width:0%;}
+            }            
+            
+
+/*pinkskull*/
+    #skulloverlays{float: left;
+    width: 66%;
+    position:absolute;}
+
+    #skullcrosshairs {
+    position: absolute;
+    pointer-events: none;
+    }
+
+    #skullcontainer{    float: left;
+    width: 66%;
+    margin-left: 17%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-color: #D3005D;
+    overflow: hidden;}
+
+    #pinkskull{width:100%;
+            -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}
+    #pinkskullB{width:100%;
+        margin-left: -14%;
+            -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}    
+    #pinkskullC{width:100%;
+        margin-left: -17%;
+            -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}        
+
+    #arrows{
+        position:absolute;
+    width: 100%;
+    pointer-events:none;
+    margin-left: 14%;
+                -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;
+    }
+    #arrowsB{
+        position:absolute;
+    width: 100%;
+    pointer-events:none;
+                -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;
+    }
+
+    #arrowsC{
+        position:absolute;
+    width: 100%;
+        margin-left: -3%;
+    pointer-events:none;
+                -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;
+    }
+    #skullwarning{
+    margin-top: 0.5%;
+    position: absolute;
+    display: none;
+    }
+    
+    #skulltime{    position: absolute;
+    margin-top: 26%;
+    left: 10%;
+    font-size: 3vw;
+    font-family: futuraex;
+    display: none;
+    color: white;}
+    
+    .warningtriangle{
+        -webkit-animation-name:warningtriangleblink; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+            animation-name: warningtriangleblink;
+            animation-duration: 1.5s;
+            animation-iteration-count:infinite;}
+        @-webkit-keyframes warningtriangleblink{
+        0%{opacity:.5;}
+        45%{opacity: .5;}
+        50%{opacity:1;}
+        90%{opacity:.5;}
+        100%{opacity:.5;}
+        }
+        @keyframes warningtriangleblink{
+                0%{opacity:.5;}
+        45%{opacity: .5;}
+        50%{opacity:1;}
+        90%{opacity:.5;}
+        100%{opacity:.5;}  
+            }
+    #skullwarnexcla{-webkit-animation-name:skullexclablink; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+            animation-name: skullexclablink;
+            animation-duration: 1.5s;
+            animation-iteration-count:infinite;}
+        @-webkit-keyframes skullexclablink{
+        0%{fill:white;}
+        45%{fill:white;}
+        50%{fill:gray;}
+        90%{fill:white;}
+        100%{fill:white;}
+        }
+        @keyframes skullexclablink{
+        0%{fill:white;}
+        45%{fill:white;}
+        50%{fill:gray;}
+        90%{fill:white;}
+        100%{fill:white;}  
+            }
+
+    #skullprogbar{height:1vw;
+        position: absolute;
+        display:none;
+        width: 9%;
+        background-color: white;
+        z-index: 5;
+        opacity: 0.5;
+        margin-top: 32%;
+        left: 10.5%;
+        -webkit-animation-name:SkullProgression; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+            animation-name: SkullProgression;
+            animation-duration: 1.5s;
+            animation-iteration-count:infinite;}
+        @-webkit-keyframes SkullProgression{
+         0%{width:0%;}
+         1%{width:2%;}
+         9%{width:8%;}
+          11%{width:7%;}
+         15%{width:1%;}
+         17%{width:4%;}
+         19%{width:3%;}
+         39%{width:2%;}
+        42%{width:6%;}
+         47%{width:8%;}
+         50%{width:1%;}
+          51%{width:5%;}
+          57%{width:8%;}
+         59%{width:4%;}
+          60%{width:0%;}
+         61%{width:2%;}
+         65%{width:8%;}
+          69%{width:7%;}
+         75%{width:1%;}
+         77%{width:4%;}
+         79%{width:3%;}
+         80%{width:2%;}
+        81%{width:6%;}
+         82%{width:8%;}
+         83%{width:1%;}
+          85%{width:5%;}
+          87%{width:8%;}
+         89%{width:8%;}
+         90%{width:3%;}
+         93%{width:1%;}
+         95%{width:9%;}
+         98%{width:3%;}
+         99%{width:1%;}
+         100%{width:9%;}}
+
+        @keyframes SkullProgression{
+         0%{width:0%;}
+         1%{width:2%;}
+         9%{width:8%;}
+          11%{width:7%;}
+         15%{width:1%;}
+         17%{width:4%;}
+         19%{width:3%;}
+         39%{width:2%;}
+        42%{width:6%;}
+         47%{width:8%;}
+         50%{width:1%;}
+          51%{width:5%;}
+          57%{width:8%;}
+         59%{width:4%;}
+          60%{width:0%;}
+         61%{width:2%;}
+         65%{width:8%;}
+          69%{width:7%;}
+         75%{width:1%;}
+         77%{width:4%;}
+         79%{width:3%;}
+         80%{width:2%;}
+        81%{width:6%;}
+         82%{width:8%;}
+         83%{width:1%;}
+          85%{width:5%;}
+          87%{width:8%;}
+         89%{width:8%;}
+         90%{width:3%;}
+         93%{width:1%;}
+         95%{width:9%;}
+         98%{width:3%;}
+         99%{width:1%;}
+         100%{width:9%;}}  
+
+    #bluebars{  position:absolute;
+    width: 100%;
+    display: none;
+    margin-left: -3%;
+    pointer-events:none;}
+
+    .blueB{fill:black;}
+
+
+
+    #wiremask{
+        opacity:.75;
+        position:absolute;
+    width: 100%;
+        left: 14%;
+    margin-top:0%;
+    pointer-events:none;
+        -webkit-transition:opacity 1s, left 1s, margin-top 1s;
+    transition:opacity 1s, left 1s, margin-top 1s;
+    }
+
+    #wiremask1{
+        opacity:1;
+        position:absolute;
+    width: 100%;
+        left: 7%;
+    margin-top:2%;
+    pointer-events:none;
+        -webkit-transition:opacity 1s, left 1s, margin-top 1s;
+    transition:opacity 1s, left 1s, margin-top 1s;
+    }
+
+    #wiremask2 {
+    position: absolute;
+    width: 100%;
+    left: 14%;
+    pointer-events: none;
+    margin-top: 4%;
+        -webkit-transition:opacity 1s, left 1s, margin-top 1s;
+    transition:opacity 1s, left 1s, margin-top 1s;
+    }
+
+    #teeth{opacity:.5;
+        position:absolute;
+    width: 100%;
+    pointer-events:none;
+    display:none;}
+
+    .skullpattern    {position: absolute;
+        width: 100%;
+        z-index: 62;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-left: 14%;
+        top:0%;
+        left:0%;
+        pointer-events:none;
+        -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}
+
+        .skullpattern2    
+        {position: absolute;
+        width: 100%;
+        z-index: 62;
+        margin-left: 20%;
+        margin-top: 5%;
+        pointer-events:none;
+        -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}
+
+        .skullpattern3 {
+    position: absolute;
+    width: 100%;
+    z-index: 62;
+    margin-left: 35%;
+    margin-top: 10%;
+    pointer-events: none;
+    -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;
+    }   
+
+    #basemask{        pointer-events:none;
+        position: absolute;
+        margin-top: .25%;
+        top:.25%;
+    z-index: 60;
+        width:100%;
+    left: 13.5%;
+        -webkit-transition: left 1s,margin-top 1s;
+    transition: left 1s,margin-top 1s;}
+
+        #basemask2{        pointer-events:none;
+                    width: 100%;
+                    position: absolute;
+    z-index: 60;
+            left: 19.5%;
+        margin-top: 5.25%;
+        -webkit-transition: left 1s, margin-top 1s;
+    transition: left 1s, margin-top 1s;}
+
+    #basemask3 {
+    pointer-events: none;
+    width: 100%;
+    position: absolute;
+    z-index: 60;
+    left: 34.5%;
+    margin-top: 10.25%;
+    -webkit-transition: left 1s, margin-top 1s;
+    transition: left 1s, margin-top 1s;}
+
+
+    .mographbox    {position: absolute;
+        width: 100%;
+        pointer-events:none;        
+        -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}
+
+
+        #mographbox2a{margin-left: 3.25%;}
+        #mographbox3a{margin-left: 3.25%;}
+        #mographbox3b{margin-left: 6.5%;}
+
+            .morects  {position: absolute;
+        width: 100%;
+        pointer-events:none;
+            -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}
+
+            #morect2a{margin-left: 3%;
+    z-index: 5;}
+            #morect3a{margin-left: 3%;
+    z-index: 6;}
+
+            #morect3b {
+    margin-left: 6.75%;
+    z-index: 6;}
+
+
+
+
+        #staticlines  {position: absolute;
+        width: 100%;
+        pointer-events:none;}
+
+
+
+    #numberholder   {    position: absolute;
+    right: 13%;
+    color: #F17FFF;
+    font-size: 5vw;
+    font-family: cdl;
+    margin-top: 25%;}
+
+    #descriphold{    position: absolute;
+    right: 4%;
+    color: #F17FFF;
+    font-size: .8vw;
+    font-family: cdl;
+    margin-top: 25.5%;
+    letter-spacing: 0.07vw;}
+
+    #sourcelink{font-size: 1vw}
+
+    #blinker0{  fill:#C78ABC;}
+
+    #blinker{  fill:#C78ABC;
+        -webkit-animation-name:blinkforever; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+                animation-name: blinkforever;
+                animation-duration: 1s;
+                animation-iteration-count:infinite;}
+
+                @-webkit-keyframes blinkforever {
+                     0%   {fill:#C78ABC;}
+                     50%  {fill:white;}
+                    100%   {fill:#C78ABC;}
+                }
+
+
+                @keyframes blinkforever {
+                                     0%   {fill:#C78ABC;}
+                     50%  {fill:white;}
+                    100%   {fill:#C78ABC;}
+                        
+             }
+
+
+    .skullbuttonA{position: absolute;
+        width: 4%;
+        z-index: 2000;
+        right: 15.25%;
+        margin-top: 42%;
+        -webkit-transition:right 1s;
+        transition:right 1s;}     
+
+    .skullbuttonA1{position:absolute;
+        width: 4%;
+        z-index: 1997;
+        right: 11.25%;
+        margin-top: 42%;
+        -webkit-transition:right 1s;
+        transition:right 1s;}
+
+
+    .skullbuttonA2{position: absolute;
+        width: 4%;
+        right: 11.25%;
+        z-index: 1999;
+        margin-top: 42%;
+        -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); 
+        -webkit-transition: right 1s;
+        transition: right 1s;
+                -webkit-animation-name:buttonrotateC; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+                animation-name: buttonrotateC;
+                animation-duration: 1s;
+                animation-iteration-count:1;}
+
+                @-webkit-keyframes buttonrotateC {
+                                    0%   {right: 11.25%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(0deg); /* Safari */
+                           transform: rotate(0deg); }
+
+                    100%   {right: 11.25%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+                }
+
+
+                @keyframes buttonrotateC {
+                    0%   {right: 11.25%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(0deg); /* Safari */
+                           transform: rotate(0deg); }
+
+                    100%   {right: 11.25%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+                }    
+
+    .skullbuttonB{position: absolute;
+        width: 4%;
+        right: 15.25%;
+        z-index: 1999;
+        margin-top: 42%;
+        -webkit-transition: right 1s;
+        transition: right 1s;}
+
+
+
+    .skullbuttonB1{position: absolute;
+        width: 4%;
+        right: 15.5%;
+        z-index: 1999;
+        margin-top: 42%;
+        -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); 
+        -webkit-transition: right 1s;
+        transition: right 1s;
+                -webkit-animation-name:buttonrotateA; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+                animation-name: buttonrotateA;
+                animation-duration: 1s;
+                animation-iteration-count:1;}
+
+                @-webkit-keyframes buttonrotateA {
+                    0%   {    right: 15.5%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(0deg); /* Safari */
+                           transform: rotate(0deg); }
+
+
+                    100%   {right: 15.5%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+                }
+
+
+                @keyframes buttonrotateA {
+                    0%   {    right: 15.5%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(0deg); /* Safari */
+                           transform: rotate(0deg); }
+                   
+                    100%   {right: 15.5%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+                }
+
+    .skullbuttonB2{position: absolute;
+        width: 4%;
+        right: 15.25%;
+        z-index: 1999;
+        margin-top: 42%;
+        -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(0deg); /* Safari */
+                           transform: rotate(0deg); 
+        -webkit-transition: right 1s;
+        transition: right 1s;
+                -webkit-animation-name:buttonrotateB; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+                animation-name: buttonrotateB;
+                animation-duration: 1s;
+                animation-iteration-count:1;}
+
+                @-webkit-keyframes buttonrotateB {
+                                    0%   {right: 15.25%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+
+                    100%   {right: 15.25%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(0deg); }
+                }
+
+
+                @keyframes buttonrotateB {
+                    0%   {right: 15.25%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+
+                    100%   {right: 15.25%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(0deg); }
+                }
+    .skullbuttonC{position: absolute;
+        width: 4%;
+        right: 15.25%;
+        z-index: 1998;
+        margin-top: 42%;
+        -webkit-transition: right 1s;
+        transition: right 1s;}
+
+    .skullbuttonC1{position:absolute;
+        width: 4%;
+        z-index: 2000;
+        right: 11.25%;
+        margin-top: 42%;
+        -webkit-transition:right 1s;
+        transition:right 1s; }
+
+
+    .skullbuttonC2{position: absolute;
+        width: 4%;
+        right: 11.25%;
+        z-index: 1999;
+        margin-top: 42%;
+        -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(0deg); /* Safari */
+                           transform: rotate(0deg); 
+        -webkit-transition: right 1s;
+        transition: right 1s;
+                -webkit-animation-name:buttonrotateD; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+                animation-name: buttonrotateD;
+                animation-duration: 1s;
+                animation-iteration-count:1;}
+
+                @-webkit-keyframes buttonrotateD {
+                                    0%   {right: 11.25%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+
+                    100%   {right: 11.25%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(0deg); }
+                }
+
+
+                @keyframes buttonrotateD {
+                    0%   {right: 11.25%;
+                    -ms-transform: rotate(180deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(180deg); }
+
+                    100%   {right: 11.25%;
+                    -ms-transform: rotate(0deg); /* IE 9 */
+                           -webkit-transform: rotate(180deg); /* Safari */
+                           transform: rotate(0deg); }
+                }
+
+
+
+
+    #skullbutt1{position:absolute;
+    cursor:pointer;}
+    #skullbutt2{position:absolute;
+    cursor:pointer;}
+    #skullbutt3{position:absolute;
+    cursor:pointer;}
+
+
+
+    }
+
+
+
+
