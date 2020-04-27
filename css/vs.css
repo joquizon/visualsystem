@@ -1,0 +1,455 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+
+    /* HTML5 display-role reset for older browsers */
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+
+
+
+@font-face {font-family:futuraex;
+            src: url(futuraextended.ttf);}
+
+@font-face {font-family:futurak;
+            src: url(futurakoyu.ttf);}
+
+@font-face {font-family:nintendo;
+            src: url(nintendo.ttf);}
+/*@font-face {
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+/*@import url('https://fonts.googleapis.com/css?familynintendo');*/
+
+body{background-color: rgb(250,250,250);}
+#undercon{
+    text-align: center;}
+a {cursor: pointer;
+    text-decoration: none;
+    color: unset;}
+.workholdhiderclass{display:none;
+width: 70%;
+    margin-left: 15%;
+    margin-top: 50%;}
+.infoholdhiderclass{    
+    display:none;
+    font-size: 0em;}
+
+#scrollsignal{color:red;
+    font-family:nintendo;
+position: fixed;
+left:48%;
+font-size: 3em;
+bottom:0%;
+  transform: rotate(90deg); /* Equal to rotateZ(45deg) */;}
+#menubutton     {width: 5%;
+    font-family:nintendo;
+    font-size: 1.25em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    letter-spacing: .01vw;
+    position: fixed;
+    bottom: 2%;
+    cursor: pointer;
+    display: none;}
+#hidemenu  {font-family:nintendo;
+            font-size: 1.25em;
+            color: red;
+            letter-spacing: .01vw;
+cursor: pointer;
+display:none;}
+
+#menubuttonforworks     {width: 5%;
+    font-family:nintendo;
+    font-size: 1.25em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    letter-spacing: .01vw;
+    position: fixed;
+    bottom: 2%;
+    cursor: pointer;}
+
+.titleholderforworks{
+    background-color:rgba(250,250,250,.75);
+    margin-left: 1%;
+    position: fixed;
+    bottom: 1%;
+    width:18%;
+    display:none;}
+.titleholder {
+    margin-left: 1%;
+    position: fixed;
+    bottom: 1%;
+    width:18%;}
+
+
+        #title{
+            font-family:nintendo;
+            font-size: 1.25em;
+            display: inline-block;
+            letter-spacing: .05vw;
+            cursor: pointer;}
+
+        #logo{
+            width: 6%;
+            margin-left: 0%;}
+
+        #logo2{
+            width: 6%;
+        }
+
+        #who{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            color: red;}
+
+        #menuholder{
+        margin-left: 1%;}
+
+
+        .menu{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;}
+        .menuBIO{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;}
+        .singlechoice{color:darkslategray;
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;}
+
+        .menuA{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;
+            background-color: black;
+            color:red;}
+
+
+
+        .list{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;
+            color:red;
+            display: none;}
+                #cdw{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;
+            color:red;
+            display: none;}
+
+            .contactlinks{
+                 font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;
+            color:red;display: none;}
+
+            #email{}
+
+            #insta{}
+
+
+.biobox2{display: none;}
+.biobox{display: none;}
+    #biostatement {
+    font-family:nintendo;
+    font-size: 1.15em;
+    line-height: 1.25;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;}
+
+/*container for work images*/
+.regworkhold{width: 70%;
+    margin-left: 15%;
+    margin-top: 75%;
+    display:none;}
+
+.infoholder{font-family:nintendo;
+    font-size: 1.15em;
+    line-height: 1.25;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 500%;}
+
+    .collworks{
+            width:76%;
+margin-left: 12%;
+margin-bottom: 20%}
+
+
+
+    .collworks2{
+            width:50%;
+margin-left: 25%;
+margin-bottom: 20%}
+.HVtitleworks{margin-bottom: 20%; font-family:nintendo;
+    font-size: 1em;
+margin-left: 25%}
+.HVtitleworks2{margin-bottom: 20%; font-family:nintendo;
+    font-size: 1em;
+margin-left: 13%}
+.hvworks{  
+            width:50%;
+margin-left: 25%;}
+
+.hvworks2   { width: 74%;
+    margin-left: 13%;}
+
+#rsfv2,#rsfv4,#rsfv6{
+    margin-top:5%
+}
+
+
+
+    .soloworkhold{width:98%;
+        margin-left: 1%;}
+    .collsolowork{width:98%;
+        margin-left: 1%;}
+
+
+#slidetab{
+    display: none;  
+    width: 5%;
+    height: 5%;
+    background-color: red;
+    position: absolute;}
+
+
+
+
+/*__________contact form_______________*/
+
+    #maincarrier{
+            font-family:nintendo;
+            font-size: 1.3vw;
+                text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+        }
+
+        .form {
+    border: none;
+    background-color: rgb(240, 240, 240);
+    margin-top: .5vw;
+    color: white;
+    width: 50%;
+    height: 2vw;
+    color: black;
+    font-family:nintendo;
+    text-align: center;
+    padding: .4vw;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    }
+
+            .form-control {
+    border: none;
+    background-color: rgb(240, 240, 240);
+    margin-top: .5vw;
+    color: white;
+    width: 50%;
+    height: 2vw;
+    color: black;
+    font-family:nintendo;
+    text-align: center;
+    padding: .4vw;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    }
+
+            .button{border: none;
+    border-radius: 30%;
+    border-radius: 30%;
+    background-color: #404040;
+    height: 3vw;
+    font-family:nintendo;
+    text-align: center;
+    padding: .5vw;
+    margin-top: 1vw;
+    color: white;
+    cursor:pointer;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;}
+
+    #messagebox{    width: 50%;
+    text-align: left;
+    height: 14vw;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    resize: none;}
+
+    .messages{    font-family:nintendo;
+    color: red;
+    text-align: center;
+    font-size: 1vw;
+    /* bottom: 17%; */
+    top: 1%;
+    /* margin-top: -6%; */
+    right: 1%;}
+
+    .messages2{
+            font-family:nintendo;
+    color: green;
+    text-align: center;
+    font-size: 1vw;
+    /* bottom: 17%; */
+    top: 1%;
+    /* margin-top: -6%; */
+    right: 1%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input, {font-family:nintendo;
+font-size:15px;}
