@@ -1,0 +1,81 @@
+newmtl Default
+Ka 0.4 0.4 0.4
+Kd 1 1 1
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl eng_blocks
+Ka 0.4 0.4 0.4
+Kd 0.392157 0.392157 0.392157
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl eng_circ
+Ka 0.4 0.4 0.4
+Kd 0.980392 0.431373 0.0392157
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl engine_ring
+Ka 0.4 0.4 0.4
+Kd 0.784314 0.784314 0.784314
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl engine_ring2
+Ka 0.4 0.4 0.4
+Kd 1 1 1
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl engine_valve
+Ka 0.4 0.4 0.4
+Kd 0.352941 0.352941 0.352941
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl multi_valves
+Ka 0.4 0.4 0.4
+Kd 0.686275 0.686275 0.686275
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl soaker_cans
+Ka 0.4 0.4 0.4
+Kd 0 0.678431 0.87451
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+
+newmtl soaker_tank
+Ka 0.4 0.4 0.4
+Kd 0.588235 0.588235 0.588235
+Ks 0.3 0.3 0.3
+Ni 1
+Ns 500
+Tf 1 1 1
+d 1
+

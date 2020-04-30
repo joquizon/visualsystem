@@ -1,0 +1,45 @@
+newmtl cuplink
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 0
+
+newmtl DEFAULT
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 0
+
+newmtl Default
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 300
+Tf 1 1 1
+d 0
+
+newmtl Gear
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 0
+
+newmtl power_source_default
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 0
+
