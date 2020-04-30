@@ -132,13 +132,7 @@ body{background-color: rgb(250,250,250);}
 a {cursor: pointer;
     text-decoration: none;
     color: unset;}
-.workholdhiderclass{display:none;
-width: 70%;
-    margin-left: 15%;
-    margin-top: 50%;}
-.infoholdhiderclass{    
-    display:none;
-    font-size: 0em;}
+
 
 #scrollsignal{color:red;
     font-family:nintendo;
@@ -158,6 +152,7 @@ bottom:0%;
     bottom: 2%;
     cursor: pointer;
     display: none;}
+
 #hidemenu  {font-family:nintendo;
             font-size: 1.25em;
             color: red;
@@ -167,7 +162,7 @@ display:none;}
 
 #menubuttonforworks     {width: 5%;
     font-family:nintendo;
-    font-size: 1.25em;
+    font-size: 1.65em;
     color: white;
     background-color: red;
     text-align: center;
@@ -180,6 +175,7 @@ display:none;}
     background-color:rgba(250,250,250,.75);
     margin-left: 1%;
     position: fixed;
+    z-index: 200;
     bottom: 1%;
     width:18%;
     display:none;}
@@ -278,24 +274,61 @@ display:none;}
     margin-left: 10%;
     margin-top: 2%;}
 
+.inviteholder{width: 50%;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 5%;}
+.showmenu{
+    font-family: nintendo;
+    font-size: 1.65em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 8%;}
+#inviteopener2{display: none}
+.workmenu{
+bottom: 6%;
+    position: fixed;
+    width: 31%;
+}
+.subshowmenu{font-family: nintendo;
+    font-size: 1.25em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 6%;}
+
+.hvinvites{width: 50%;
+    float: left;}
+#rsfinvite{width: 80%;
+    margin-left: 10%;}
+#collxchico{    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;}
 /*container for work images*/
-.regworkhold{width: 70%;
+.regworkhold2{width: 70%;
     margin-left: 15%;
-    margin-top: 75%;
+    margin-top: 1%;
     display:none;}
 
-.infoholder{font-family:nintendo;
+.infoholder2{
+    display:none;
+    font-family:nintendo;
     font-size: 1.15em;
     line-height: 1.25;
     width: 70%;
     margin-left: 15%;
-    margin-top: 15%;
-    margin-bottom: 500%;}
+    margin-top: 15%;}
 
     .collworks{
-            width:76%;
-margin-left: 12%;
-margin-bottom: 20%}
+    margin-top: 6%;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20%;}
 
 
 
@@ -434,6 +467,8 @@ margin-left: 25%;}
     /* margin-top: -6%; */
     right: 1%;}
 
+    input, {font-family:nintendo;
+    
 
 
 
@@ -443,13 +478,34 @@ margin-left: 25%;}
 
 
 
+    font-size:15px;}
 
 
 
 
+/*___________mw menu__________________*/
 
+.mwmenu{
+    width: 20%;
+    margin-top: 20%;
+    margin-left: 40%;}
+.mwchoose{   
+    text-align: center;
+    font-size: 2em;
+    font-family: nintendo;
+    cursor: pointer;}
+#mwbod{
+    display: none;
+    position: fixed;
+    width: 1%;
+    background-color: #4e4e4e;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: nintendo;
+    cursor: pointer;
+    color: white;
+    padding: 1%;}
 
-
-
-input, {font-family:nintendo;
-font-size:15px;}
+#mwmenuopener{display: none;}
