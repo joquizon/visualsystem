@@ -128,14 +128,24 @@ a{cursor:pointer;
 text-decoration: none;}
 .mwork{width: 76%;
     margin-left: 12%;
-    margin-top: 5vh;
-    margin-bottom: 10vh;}
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: none;}
+.coded{display: none;
+    width: 100%;
+}
+.gifsetA{width: 94%;
+    margin-left: 3%;
+    margin-bottom: 10%;} 
+
+
 /*laocoon*/
     #lacooncontainer
     {    float: left;
     width: 30%;
     margin-left: 35%;
-    margin-top: 8%;}
+    margin-top: 5%;
+    margin-bottom: 10%;}
     #lacoon{width:100%;}
 
     #boxoverlay{position:absolute;}
@@ -189,7 +199,8 @@ text-decoration: none;}
     height: 22%;
     opacity: 1;
     margin-left: 35%;
-    margin-top: 8%;}
+    margin-top: 5%;
+    margin-bottom: 10%;}
 
     #trackingbase{width: 100%;
         position: absolute;
@@ -762,7 +773,7 @@ text-decoration: none;}
                 90%{width:9%;}
                 100%{width:0%;}
             }            
-            
+          
 
 /*pinkskull*/
     #skulloverlays{float: left;
@@ -777,10 +788,10 @@ text-decoration: none;}
     #skullcontainer{    float: left;
     width: 66%;
     margin-left: 17%;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 2%;
     background-color: #D3005D;
-    overflow: hidden;}
+    overflow: hidden;
+    margin-bottom: 5%;}
 
     #pinkskull{width:100%;
             -webkit-transition: margin-left 1s, margin-top 1s;
@@ -1362,10 +1373,6 @@ text-decoration: none;}
     cursor:pointer;}
     #skullbutt3{position:absolute;
     cursor:pointer;}
-
-
-
-    }
 
 
 

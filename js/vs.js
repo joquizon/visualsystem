@@ -1,10 +1,6 @@
 
 $(document).ready(function()
 {
-	// $("#works").click(function()
-	// 	{	
- //    		$("#workslist").toggleClass("listA");
-	// 	});
 
 	$(".menu").click(function(event)
 		{	
@@ -41,15 +37,7 @@ $(document).ready(function()
 	{	
 		$(".titleholder,.titleholderforworks").toggle();
 		$("#menubutton,#menubuttonforworks").toggle();
-			$(".biobox").toggle();
-			$(".biobox2").hide();	
-			$(".workholdhiderclass").attr("class","regworkhold");
-			$(".infoholdhiderclass").attr("class","infoholder");
-  			$("#scrollsignal").show();  
-			$("#workhold").show();
-			$("#infobox").show();
-			$("#hidemenu").show();
-
+				$("#hidemenu").toggle();
 	});
 
 	$("#hidemenu").click(function(event)
@@ -60,60 +48,94 @@ $(document).ready(function()
 
 	});
 
-	$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y >100) 
-  {
-  			$(".infoholder").hide();
-  			$("#scrollsignal").hide();
-			$(".regworkhold").show();
+	$('#workopener,#workopener2').click(function(event)
+	{
+		$('.biobox2').hide();
+		$(this).hide();
+		$('.inviteholder').hide();
+		$('.regworkhold2').show();
+		$('.infoholder2').hide();
+		$('#inviteopener2,#infopener2').show();
 
+	});
+		$('.inviteholder').click(function(event)
+	{
+		$('.biobox2').hide();
+		$(this).hide();
+		$('.inviteholder,#workopener2').hide();
+		$('.regworkhold2').show();
+		$('.infoholder2').hide();
+		$('#inviteopener2,#infopener2').show();
 
-  }
-  else
-    {
-    		$(".infoholder").show();
-  			$("#scrollsignal").show();    		
-			$(".regworkhold").hide();
-    };
-});
+	});
 
-	
+	$('#infopener,#infopener2').click(function(event)
+	{
+		$('.biobox2').hide();
+		$(this).hide();
+		$('.inviteholder').hide();
+		$('.infoholder2').show();
+		$('.regworkhold2').hide();
+		$('#inviteopener2,#workopener2').show();
+	});
 
-	$("#bio").click(function()
+	$('#inviteopener,#inviteopener2').click(function(event)
+	{
+		$('.biobox2').hide();
+		$(this).hide();
+		$('.inviteholder').show();
+		$('.infoholder2').hide();
+		$('.regworkhold2').hide();
+		$('#workopener2,#infopener2').show();		
+	});
+
+	$('#mwmenuopener').click(function(event)
 		{
+						$('.mwmenu').show();
+						$(".biobox2").hide();
+						$(this).hide();
+		});
 
+	$("#bio").click(function(event)
+		{
 			$(".biobox").toggle();
 			$(".biobox2").show();			
-			$("#workhold").hide();
-			$(".titleholder,.titleholderforworks,#hidemenu,.infoholder").toggle();
+			$(".titleholder,.titleholderforworks,#hidemenu").toggle();
 			$("#menubutton,#menubuttonforworks").toggle();
-			$(".regworkhold").attr("class","workholdhiderclass");
-			$(".infoholder").attr("class","infoholdhiderclass");
 			$('html,body').animate({scrollTop:0},0);
-			$("#scrollsignal").hide();
+			$(".regworkhold2,.infoholder2,.inviteholder,.mwmenu,.mwork,.coded").hide();
+			$('#workopener2,#infopener2,#inviteopener2,#mwmenuopener').show();
 
 		});
 
-	// $(".collworks").click(function(event)
-	// {	
 
-	// 				var worker = event.target.id;
-	// 		$("#"+worker).toggleClass("solowork");
-	// 	$(".regworkhold").toggleClass("soloworkhold");
-	// 	$(".collworks,.collworks2").toggle();
-	// 		$("#"+worker).show();
-	// });
+	// __________menu system for mworks page
+	$('#mwbod').click(function(event)
+		{
+			$('.mwmenu').show();
+			$('.coded,.mwork').hide();
+			$(this).hide();
+		});
 
-	// $(".collworks2").click(function(event)
-	// {	
 
-	// 				var worker = event.target.id;
-	// 		$("#"+worker).toggleClass("solowork");
-	// 	$(".regworkhold").toggleClass("soloworkhold");
-	// 	$(".collworks,.collworks2").toggle();
-	// 		$("#"+worker).show();
-	// });
+	$('.mwchoose').click(function(event)
+		{
+			mw = event.target.id
+			console.log(mw);
+			$('#'+mw+'work').show();
+			$('.mwmenu').hide();
+			$('#mwbod').show();
+			$('body').css('overflow-y','scroll')
+
+
+		});
+
+
+			$('#all').click(function(event)
+				{
+					$(".mwork,.coded").show();
+				});
+
 
 
 
