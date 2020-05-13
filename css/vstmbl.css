@@ -119,27 +119,21 @@
             src: url(futurakoyu.ttf);}
 
 @font-face {font-family:nintendo;
-            src: url(https://static.tumblr.com/lpidkua/tErq039ve/nintendo.ttf);}
+            src: url(nintendo.ttf);}
 /*@font-face {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');*/
 /*@import url('https://fonts.googleapis.com/css?familynintendo');*/
 
-body{background-color: rgb(250,250,250);
-    font-family:nintendo;}
-
+body{background-color: rgb(250,250,250);}
+#undercon{
+    text-align: center;}
 a {cursor: pointer;
     text-decoration: none;
     color: unset;}
-.workholdhiderclass{display:none;
-width: 70%;
-    margin-left: 15%;
-    margin-top: 50%;}
-.infoholdhiderclass{    
-    display:none;
-    font-size: 0em;}
 
+#journal{  font-family:nintendo;}
 #scrollsignal{color:red;
     font-family:nintendo;
 position: fixed;
@@ -158,6 +152,7 @@ bottom:0%;
     bottom: 2%;
     cursor: pointer;
     display: none;}
+
 #hidemenu  {font-family:nintendo;
             font-size: 1.25em;
             color: red;
@@ -167,26 +162,24 @@ display:none;}
 
 #menubuttonforworks     {width: 5%;
     font-family:nintendo;
-    font-size: 1.25em;
+    font-size: 1.65em;
     color: white;
     background-color: red;
     text-align: center;
     letter-spacing: .01vw;
     position: fixed;
     bottom: 2%;
-    z-index: 1000000000;
     cursor: pointer;}
 
 .titleholderforworks{
     background-color:rgba(250,250,250,.75);
     margin-left: 1%;
     position: fixed;
+    z-index: 200;
     bottom: 1%;
     width:18%;
-    z-index: 1000000000;
     display:none;}
 .titleholder {
-        background-color:rgba(250,250,250,.75);
     margin-left: 1%;
     position: fixed;
     bottom: 1%;
@@ -264,7 +257,7 @@ display:none;}
             margin-left: 1%;
             font-size: 1.25em;
             cursor: pointer;
-            color:red;}
+            color:red;display: none;}
 
             #email{}
 
@@ -274,39 +267,68 @@ display:none;}
 .biobox2{display: none;}
 .biobox{display: none;}
     #biostatement {
-position: fixed;
-top: 5%;
-    font-family: nintendo;
+    font-family:nintendo;
     font-size: 1.15em;
     line-height: 1.25;
-    width: 98%;
-    margin-left: 1%;
-    z-index: 100;
-    background-color: white;
-}
-#biolines{    margin-left: 9%;
-    margin-right: 9%;
-    margin-top: 4%;
-    margin-bottom: 4%;}
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;}
 
+.inviteholder{width: 50%;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 5%;}
+.showmenu{
+    font-family: nintendo;
+    font-size: 1.65em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 8%;}
+#inviteopener2{display: none}
+.workmenu{
+bottom: 6%;
+    position: fixed;
+    width: 31%;
+}
+.subshowmenu{font-family: nintendo;
+    font-size: 1.25em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 6%;}
+
+.hvinvites{width: 50%;
+    float: left;}
+#rsfinvite{width: 80%;
+    margin-left: 10%;}
+#collxchico{    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;}
 /*container for work images*/
-.regworkhold{width: 70%;
+.regworkhold2{width: 70%;
     margin-left: 15%;
-    margin-top: 75%;
+    margin-top: 1%;
     display:none;}
 
-.infoholder{font-family:nintendo;
+.infoholder2{
+    display:none;
+    font-family:nintendo;
     font-size: 1.15em;
     line-height: 1.25;
     width: 70%;
     margin-left: 15%;
-    margin-top: 15%;
-    margin-bottom: 500%;}
+    margin-top: 15%;}
 
     .collworks{
-            width:76%;
-margin-left: 12%;
-margin-bottom: 20%}
+    margin-top: 6%;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20%;}
 
 
 
@@ -445,6 +467,8 @@ margin-left: 25%;}
     /* margin-top: -6%; */
     right: 1%;}
 
+    input, {font-family:nintendo;
+    
 
 
 
@@ -454,13 +478,367 @@ margin-left: 25%;}
 
 
 
+    font-size:15px;}
 
 
 
 
+/*___________mw menu__________________*/
+
+.mwmenu{
+    width: 20%;
+    margin-top: 20%;
+    margin-left: 40%;}
+.mwchoose{   
+    text-align: center;
+    font-size: 2em;
+    font-family: nintendo;
+    cursor: pointer;}
+#mwbod{
+    display: none;
+    position: fixed;
+    width: 1%;
+    background-color: #4e4e4e;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: nintendo;
+    cursor: pointer;
+    color: white;
+    padding: 1%;}
+
+#mwmenuopener{display: none;}
 
 
 
+#menubutton     {width: 5%;
+    font-family:nintendo;
+    font-size: 1.25em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    letter-spacing: .01vw;
+    position: fixed;
+    bottom: 2%;
+    cursor: pointer;
+    display: none;}
+#hidemenu  {font-family:nintendo;
+            font-size: 1.25em;
+            color: red;
+            letter-spacing: .01vw;
+cursor: pointer;
+display:none;}
 
-input, {font-family:nintendo;
-font-size:15px;}
+#menubuttonforworks     {width: 5%;
+    font-family:nintendo;
+    font-size: 1.25em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    letter-spacing: .01vw;
+    position: fixed;
+    bottom: 2%;
+    cursor: pointer;}
+
+
+.titleholder {font-family:nintendo;
+        background-color:rgba(250,250,250,.75);
+    margin-left: 1%;
+    position: fixed;
+    bottom: 1%;
+    width:18%;}
+
+
+        #title{
+            font-family:nintendo;
+            font-size: 1.25em;
+            display: inline-block;
+            letter-spacing: .05vw;
+            cursor: pointer;}
+
+        #logo{
+            width: 6%;
+            margin-left: 0%;}
+
+        #logo2{
+            width: 6%;
+        }
+
+        #who{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            color: red;}
+
+        #menuholder{
+        margin-left: 1%;}
+
+
+        .menu{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;}
+        .menuBIO{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;}
+        .singlechoice{color:darkslategray;
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;}
+
+        .menuA{
+            font-family:nintendo;
+            margin-left: 1%;
+            font-size: 1.25em;
+            cursor: pointer;
+            background-color: black;
+            color:red;}
+
+
+/*media query*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+.list,.contactlinks,.menu,.singlechoice,#bio,#title,#who,#hidemenu,.showmenu,#menubuttonforworks,#journal,#contact {font-size: 2em;}
+.titleholder,.titleholderforworks{margin-left: 0%;
+    width: 100%;
+    background: rgb(250,250,250,0.9);}
+.mwmenu {width: 40%;
+    margin-top: 45%;
+    margin-left: 30%;}
+#mwbod {width: 4%;}
+
+
+}
+
