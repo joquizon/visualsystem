@@ -38,6 +38,12 @@ margin-left: 5%}
     width: 90%;
     margin-left: 5%;
 }
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -122,6 +128,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 
@@ -212,6 +224,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 /**********
@@ -317,6 +335,12 @@ margin-left: 5%}
     width: 90%;
     margin-left: 5%;
 }
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
 }
 
 /* iPhone 5 ----------- */
@@ -400,6 +424,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 
@@ -486,6 +516,12 @@ margin-left: 5%}
     width: 90%;
     margin-left: 5%;
 }
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
 }
 
 /* iPhone 6+, 7+, 8+ ----------- */
@@ -569,6 +605,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 
@@ -655,6 +697,12 @@ margin-left: 5%}
     width: 90%;
     margin-left: 5%;
 }
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
 }
 
 /* iPhone XS Max, XR ----------- */
@@ -696,6 +744,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 
@@ -742,6 +796,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 
@@ -821,6 +881,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 
@@ -905,6 +971,12 @@ margin-left: 5%}
 .hvworks2 {
     width: 90%;
     margin-left: 5%;
+}
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 }
 
@@ -997,5 +1069,13 @@ margin-left: 5%}
 .HVtitleworks2{margin-bottom: 30%; font-family: nintendo;
     font-size: .85em;
 margin-left: 5%}
+
+
+.gifworkB {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
 
 }

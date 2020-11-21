@@ -114,7 +114,7 @@ $(document).ready(function()
 	$('#mwbod').click(function(event)
 		{
 			$('.mwmenu').show();
-			$('.coded,.gifwork').hide();
+			$('.coded,.gifwork,.gifworkB').hide();
 			$(this).hide();
 		});
 
@@ -130,6 +130,20 @@ $(document).ready(function()
 			tag = event.target.id
 			$('.mwmenu').hide();
 			$('#'+tag+'A').show();
+			$('#mwbod').show();
+		});
+	$('.mworkgifsB').click(function(event)
+		{
+			tag = event.target.id
+			$('.mwmenu').hide();
+			$('#'+tag+'B').show();
+			$('#mwbod').show();
+		});
+	$('.mworkB').click(function(event)
+		{
+			tag = event.target.id
+			$('.mwmenu').hide();
+			$('#'+tag+'B').show();
 			$('#mwbod').show();
 		});
 
